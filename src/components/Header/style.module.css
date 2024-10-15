@@ -1,0 +1,56 @@
+
+.headerContent {
+    padding: 10px 0;
+}
+
+.headerTitle {
+    text-align: center;
+    background-color: #70625B;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.searchIcon {
+    margin-right: 10px;
+}
+
+.searchText {
+    font-size: 14px;
+    margin: 0 10px;
+    user-select: none;
+    transition: color .3s;
+}
+
+.searchText:hover {
+    color: magenta;
+}
+
+.header__search {
+    display: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.header__search.active {
+    display: block;
+}
+
+.basket {
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+    color: #000000;
+}
+
+.basket img {
+    margin-right: 8px;
+}
+
+.basketText {
+    font-size: 14px;
+}
