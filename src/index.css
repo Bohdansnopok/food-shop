@@ -5,6 +5,7 @@ body, html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Radio Canada Big", sans-serif;
+  background-color: #EBE4D0;
 }
 
 code {
