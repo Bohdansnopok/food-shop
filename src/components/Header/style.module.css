@@ -45,6 +45,11 @@
     text-decoration: none;
     margin-left: auto;
     color: #000000;
+    transition: color .3s;
+}
+
+.basket:hover {
+    color: blue;
 }
 
 .basket img {
@@ -53,4 +58,16 @@
 
 .basketText {
     font-size: 14px;
+}
+
+.design {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 60px;
+    transition: color .3s;
+}
+
+.design:hover {
+    color: blue;
 }

@@ -1,0 +1,102 @@
+.footer {
+    background-color: #70625B;
+    padding: 100px 0 60px 0;
+}
+
+.leftContent {
+    margin-right: auto;
+}
+
+.pageNavs,
+.foodNavs {
+    display: flex;
+    align-items: center;
+}
+
+.pageNavs {
+    margin-left: 40px;
+}
+
+.foodNavs {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    transition: all .5s;
+    margin-left: 45px;
+}
+
+.nav:hover {
+    color: orange;
+}
+
+.protected {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 120px;
+    transition: all .3s;
+}
+
+.protected:hover {
+    color: orange;
+}
+
+.number,
+.gmail {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color .3s;
+}
+
+.number:hover,
+.gmail:hover {
+    color: orange;
+}
+
+.gmail {
+    margin: 10px 0;
+}
+
+.ourSocials {
+    display: flex;
+    align-items: center;
+}
+
+.ourSocial ~ .ourSocial {
+    margin-left: 12px;
+}
+
+.ourSocial img {
+    height: 21px;
+    width: 21px;
+    transition: height 0.3s ease-out, width 0.3s ease-out; /* плавное возвращение при снятии курсора */
+}
+
+.ourSocial img:hover {
+    animation: socialHover 0.3s ease-in forwards; /* анимация только на увеличение */
+}
+
+@keyframes socialHover {
+    from {
+        height: 21px;
+        width: 21px;
+    }
+
+    to {
+        height: 25px;
+        width: 25px;
+    }
+}

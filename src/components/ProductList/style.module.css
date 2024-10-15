@@ -1,6 +1,7 @@
 
 .productList {
     padding-top: 70px;
+    padding-bottom: 180px;
     display: flex;
     flex-direction: column;
     max-width: 74%;

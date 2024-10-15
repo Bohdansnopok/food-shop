@@ -57,6 +57,10 @@ const Header: React.FC = () => {
                         <img src={basketIcon} alt=""/>
                         <div className="basketText">Кошик (0)</div>
                     </a>
+
+                    <a href='#' className={styles.design}>
+                        <div className="basketText">Оформлення</div>
+                    </a>
                 </div>
             </header>
         </div>
