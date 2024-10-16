@@ -9,12 +9,12 @@ import Sets from "./Sets";
 const ProductList: React.FC = () => {
     return (
         <div className='container'>
-            <div className={styles.productList}>
+            <section className={styles.productList}>
                 <Meat/>
                 <Pork/>
                 <Sausages/>
                 <Sets/>
-            </div>
+            </section>
         </div>
     );
 };

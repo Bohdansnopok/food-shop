@@ -10,8 +10,8 @@ const Sausages: React.FC = () => {
                 Ковбаски
             </h2>
 
-            <div className={styles.productList__cards}>
-                <div className={styles.productList__card}>
+            <section className={styles.productList__cards}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -20,9 +20,22 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
 
-                <div className={styles.productList__card}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -31,9 +44,22 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
 
-                <div className={styles.productList__card}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -42,9 +68,22 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
 
-                <div className={styles.productList__card}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -53,9 +92,22 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
 
-                <div className={styles.productList__card}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -64,9 +116,22 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
 
-                <div className={styles.productList__card}>
+                <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -75,8 +140,21 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
-                </div>
-            </div>
+                    <div className={styles.productDescription}>
+                        *Пориньте у світ насиченого смаку <br/>
+                        з нашим натуральним <br/>
+                        сушеним м’ясом з відбірної курки <br/>
+                        та свинини. Ми ретельно <br/>
+                        відбираємо лише найкращі <br/>
+                        шматки м’яса, щоб гарантувати <br/>
+                        найвищу якість і насиченість <br/>
+                        кожного кусочка. <br/>
+                        <br/>
+                        Натисніть щоб дізнатися більше <br/>
+                        або зробити замовлення <br/>
+                    </div>
+                </a>
+            </section>
         </div>
     );
 };
