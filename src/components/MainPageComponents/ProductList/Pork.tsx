@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './style.module.css';
-import foodPhoto from "../../images/foodPhoto2.jpg";
+import foodPhoto from "../../../images/foodPhoto2.jpg";
 
 // Ваш код компонента Header
-const Sausages: React.FC = () => {
+const Pork: React.FC = () => {
     return (
         <div className={styles.productsWrapper}>
             <h2 className={styles.productList__title}>
-                Ковбаски
+                Свинячі джерки
             </h2>
 
             <section className={styles.productList__cards}>
@@ -20,6 +20,7 @@ const Sausages: React.FC = () => {
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -38,7 +39,7 @@ const Sausages: React.FC = () => {
                 <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Спайсі
                     </div>
 
                     <div className={styles.productPrice}>
@@ -62,7 +63,7 @@ const Sausages: React.FC = () => {
                 <a href="" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Часник
                     </div>
 
                     <div className={styles.productPrice}>
@@ -159,4 +160,4 @@ const Sausages: React.FC = () => {
     );
 };
 
-export default Sausages;
+export default Pork;

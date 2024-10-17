@@ -1,0 +1,179 @@
+
+.cart {
+    padding: 222px 0;
+}
+
+.pageNavigation {
+    display: flex;
+    align-items: center;
+    margin: 25px 0 160px 0;
+}
+
+.minus {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0 13px;
+}
+
+.page {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: color .3s;
+}
+
+.page:hover {
+    color: orange;
+}
+
+.productInCart {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+.topContent {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 25px;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.item:first-child {
+    margin-right: auto;
+}
+
+.item:nth-child(3) {
+    margin-left: 145px;
+    margin-right: 200px;
+}
+
+.dagger {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    margin-right: 45px;
+}
+
+.dagger::before,
+.dagger::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+}
+
+.dagger::before {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-25%);
+}
+
+.dagger::after {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-25%);
+}
+
+.productName {
+    margin-left: 24px;
+}
+
+.productName span {
+    font-weight: bold;
+}
+
+.price,
+.summaryPrice {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.quantity {
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    margin-left: 147px;
+    margin-right: 240px;
+}
+
+.summaryPrice {
+    margin-left: 0;
+}
+
+.coupon {
+    display: flex;
+    margin-bottom: 88px;
+}
+
+.coupon .btn {
+    background-color: transparent;
+}
+
+.couponInput {
+    display: block;
+    background-color: transparent;
+    margin-right: 16px;
+    border: none;
+    color: black;
+    font-size: 17px;
+    border-bottom: 1px solid #000000;
+}
+
+.couponInput::placeholder {
+    color: black;
+}
+
+.couponInput:focus {
+    outline: none;
+}
+
+.btn:last-child {
+    margin-left: auto;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.priceSum {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.priceSum span {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.sum {
+    border: 1px solid #000000;
+    padding: 14px 32px;
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.sum span {
+    font-weight: bold;
+    margin-left: 55px;
+}
+
+.summary button {
+    font-size: 17px;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './style.module.css';
-import human from '../../images/human.jpg'
-import human1 from '../../images/human-1.jpg'
+import human from '../../../images/human.jpg'
+import human1 from '../../../images/human-1.jpg'
 
 // Ваш код компонента Header
 const Sidebar: React.FC = () => {
     return (
         <div className='container'>
-            <div className={`${styles.sidebar} flex`}>
+            <div className={styles.sidebar}>
                 <aside className={styles.sidebar__categories}>
                     <button className={styles.sidebar__category}>Усі</button>
                     <button className={styles.sidebar__category}>М'ясні джерки</button>
@@ -16,9 +16,9 @@ const Sidebar: React.FC = () => {
                     <button className={styles.sidebar__category}>Набори</button>
                 </aside>
 
-                <main>
-                    <img src={human} alt=""/>
-                    <img src={human1} alt=""/>
+                <main className={styles.images}>
+                    <img src={human} alt="" className={styles.sidebar__image}/>
+                    <img src={human1} alt="" className={styles.sidebar__image}/>
                 </main>
             </div>
         </div>

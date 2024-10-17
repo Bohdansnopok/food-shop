@@ -1,22 +1,21 @@
 import React from 'react';
 import styles from './style.module.css';
-import setsPhoto from "../../images/setsPhoto.jpg";
+import foodPhoto from "../../../images/foodPhoto.jpg";
 
 // Ваш код компонента Header
-const Sets: React.FC = () => {
+const Meat: React.FC = () => {
     return (
-        <div className={styles.productsWrapper}>
+        <div>
             <h2 className={styles.productList__title}>
-                Набори
+                М'ясні джерки
             </h2>
 
             <section className={styles.productList__cards}>
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
                     </div>
-
                     <div className={styles.productPrice}>
                         240₴
                     </div>
@@ -35,15 +34,16 @@ const Sets: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Спайсі
                     </div>
 
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -59,15 +59,16 @@ const Sets: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Часник
                     </div>
 
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -83,15 +84,16 @@ const Sets: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Fur Bumer
                     </div>
 
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -107,15 +109,16 @@ const Sets: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Fur Bumer
                     </div>
 
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -131,15 +134,16 @@ const Sets: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="" className={styles.productList__card}>
-                    <img src={setsPhoto} alt=""/>
+                <a href="#" className={styles.productList__card}>
+                    <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
-                        Кунжут
+                        Fur Bumer
                     </div>
 
                     <div className={styles.productPrice}>
                         240₴
                     </div>
+
                     <div className={styles.productDescription}>
                         *Пориньте у світ насиченого смаку <br/>
                         з нашим натуральним <br/>
@@ -159,4 +163,4 @@ const Sets: React.FC = () => {
     );
 };
 
-export default Sets;
+export default Meat;

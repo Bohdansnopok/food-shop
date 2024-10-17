@@ -5,6 +5,7 @@
 
 .headerTitle {
     text-align: center;
+    width: 100%;
     background-color: #70625B;
     color: #ffffff;
     font-size: 16px;
@@ -70,4 +71,40 @@
 
 .design:hover {
     color: blue;
+}
+
+/*media*/
+
+@media (max-width: 1300px) {
+    .headerContent {
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .design {
+        display: none;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .header__search {
+        border-radius: 10px;
+        margin-left: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .adaptive {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .header__search {
+        margin-top: 12px;
+    }
 }
