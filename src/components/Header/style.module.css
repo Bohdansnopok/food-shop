@@ -81,6 +81,14 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .searchText:hover,
+    .design:hover,
+    .basket:hover {
+        color: inherit !important;
+    }
+}
+
 @media (max-width: 650px) {
     .design {
         display: none;

@@ -122,6 +122,19 @@ ul {
     }
 }
 
+@media (max-width: 1024px) {
+    .nav:hover,
+    .number:hover,
+    .gmail:hover,
+    .protected:hover {
+        color: white;
+    }
+
+    .ourSocial img:hover {
+        animation: none;
+    }
+}
+
 @media (max-width: 900px) {
 
     .leftContent {

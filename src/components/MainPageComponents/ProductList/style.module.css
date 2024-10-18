@@ -116,6 +116,28 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .productDescription {
+        display: none;
+    }
+
+    .productList__card::before,
+    .productDescription {
+        transition: none !important;
+        height: 0;
+        background-color: transparent !important;
+        opacity: 1 !important;
+    }
+
+    .productList__card:hover::before {
+        height: 0;
+    }
+
+    .productList__card:hover .productDescription {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 768px) {
     .productList {
         max-width: none;

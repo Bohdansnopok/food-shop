@@ -209,27 +209,10 @@
 }
 
 @media (max-width: 1024px) {
-    .summaryPrice,
-    .item:last-child {
-        display: none;
+    .page:hover {
+        color: inherit !important;
     }
 
-    .price {
-        margin-left: auto;
-    }
-
-    .item:nth-child(3) {
-        margin-left: 92px;
-        margin-right: 0;
-    }
-
-    .quantity {
-        margin-left: 120px;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 1024px) {
     .summaryPrice,
     .item:last-child {
         display: none;
@@ -318,6 +301,10 @@
         font-size: 14px;
     }
 
+    .coupon .btn {
+        font-size: 14px;
+    }
+
     .btn:last-child {
         display: none;
     }
@@ -333,6 +320,10 @@
 }
 
 @media (max-width: 500px) {
+    .page {
+        font-size: 14px;
+    }
+
     .couponInput {
         font-size: 14px;
         max-width: 158px;

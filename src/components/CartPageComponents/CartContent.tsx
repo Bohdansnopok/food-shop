@@ -21,7 +21,7 @@ function CartContent() {
             <div className={styles.pageNavigation}>
                 <Link to="/" className={styles.page}>Головна</Link>
                 <div className={styles.minus}>
-                    –
+                    —
                 </div>
                 <Link to="/Cart" className={styles.page}>Кошик</Link>
             </div>
