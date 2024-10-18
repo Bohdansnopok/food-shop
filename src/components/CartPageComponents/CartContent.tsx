@@ -5,9 +5,11 @@ import brooke from '../../images/brooke-cagle.png'
 import useSearch from "../../hooks/useSearch";
 
 function CartContent() {
-    const { searchTerm,
+    const {
+        searchTerm,
         handleSearchChange,
-        handleSearchSubmit } = useSearch((term) => {
+        handleSearchSubmit
+    } = useSearch((term) => {
 
     });
 
@@ -38,22 +40,28 @@ function CartContent() {
 
                 </button>
 
-                <img src={brooke} alt=""/>
+                <img src={brooke} alt="" height="210px" className={styles.productPhoto}/>
 
-                <div className={styles.productName}>
-                    М'ясні джерки <span>500</span>г
-                </div>
+                <div className={styles.adaptiveWrapper}>
+                    <div className={styles.productName}>
+                        <div className={styles.item}>Товар</div>
+                        М'ясні джерки <span>500</span>г
+                    </div>
 
-                <div className={styles.price}>
-                    ₴129
-                </div>
+                    <div className={styles.price}>
+                        <div className={styles.item}>Ціна</div>
+                        ₴129
+                    </div>
 
-                <div className={styles.quantity}>
-                    1
-                </div>
+                    <div className={styles.item}>Кількість</div>
 
-                <div className={styles.summaryPrice}>
-                    ₴129
+                    <div className={styles.quantity}>
+                        1
+                    </div>
+
+                    <div className={styles.summaryPrice}>
+                        ₴129
+                    </div>
                 </div>
             </div>
 
@@ -68,7 +76,7 @@ function CartContent() {
                 />
 
                 <a href="#" className={`${styles.btn} btn`}>
-                    Застосувати купон
+                    Застосувати  <span>купон</span> {/*спан для адаптива*/}
                 </a>
 
                 <a href="#" className={`${styles.btn} btn`}>
@@ -85,7 +93,9 @@ function CartContent() {
                     <div className={styles.sum}>
                         Всього: <span>₴129</span>
                     </div>
-                    <button className="btn">Оформити замовлення</button>
+                    <button className="btn">
+                        Оформити <span>замовлення</span> {/*спан для адаптива*/}
+                    </button>
                 </div>
             </div>
         </section>

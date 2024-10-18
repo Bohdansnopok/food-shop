@@ -33,6 +33,12 @@
     font-size: 20px;
 }
 
+.adaptiveWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .topContent {
     display: flex;
     align-items: center;
@@ -91,6 +97,10 @@
     margin-left: 24px;
 }
 
+.productName .item {
+    display: none;
+}
+
 .productName span {
     font-weight: bold;
 }
@@ -121,6 +131,10 @@
     background-color: transparent;
 }
 
+.coupon .btn span {
+    margin-left: 5px;
+}
+
 .couponInput {
     display: block;
     background-color: transparent;
@@ -144,9 +158,8 @@
 }
 
 .summary {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    margin-left: auto;
+    width: max-content;
 }
 
 .priceSum {
@@ -176,4 +189,187 @@
 
 .summary button {
     font-size: 17px;
+}
+
+.summary button span {
+    margin-left: 5px;
+}
+
+.adaptiveWrapper .item {
+    display: none;
+}
+
+/*media*/
+
+@media (max-width: 1400px) {
+    .cart {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .summaryPrice,
+    .item:last-child {
+        display: none;
+    }
+
+    .price {
+        margin-left: auto;
+    }
+
+    .item:nth-child(3) {
+        margin-left: 92px;
+        margin-right: 0;
+    }
+
+    .quantity {
+        margin-left: 120px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .summaryPrice,
+    .item:last-child {
+        display: none;
+    }
+
+    .price {
+        margin-left: auto;
+    }
+
+    .item:nth-child(3) {
+        margin-left: 92px;
+        margin-right: 0;
+    }
+
+    .quantity {
+        margin-left: 120px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 630px) {
+    .productInCart {
+        align-items: flex-start;
+        font-size: 14px;
+    }
+
+    .dagger {
+        display: none;
+    }
+
+    .topContent {
+        display: none;
+    }
+
+    .adaptiveWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .productName .item {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .item {
+        font-size: 14px;
+    }
+
+    .quantity,
+    .productName,
+    .price,
+    .item:nth-child(3),
+    .item {
+        margin-left: 0;
+    }
+
+    .productPhoto {
+        margin-right: 21px;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        margin: 24px 0;
+    }
+
+    .price .item {
+        display: block;
+        font-weight: normal;
+        margin-right: 16px;
+    }
+
+    .item:nth-child(3) {
+        margin-left: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .pageNavigation {
+        margin: 25px 0 24px 0;
+        border-bottom: 1px solid #CCCCCC;
+        padding-bottom: 24px;
+    }
+
+    .coupon {
+        font-size: 14px;
+    }
+
+    .btn:last-child {
+        display: none;
+    }
+
+    .summary {
+        margin-left: 0;
+    }
+
+    .priceSum,
+    .summary button span {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .couponInput {
+        font-size: 14px;
+        max-width: 158px;
+    }
+
+    .coupon .btn {
+        padding: 12px 20px;
+    }
+
+    .sum {
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+
+    .summary button {
+        padding: 15px 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .productInCart {
+        align-items: flex-start;
+        font-size: 12px;
+    }
+
+    .couponInput {
+        font-size: 14px;
+        max-width: 100px;
+    }
+
+    .sum span {
+        margin-left: 23px;
+    }
+
+    .summary button {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
 }
