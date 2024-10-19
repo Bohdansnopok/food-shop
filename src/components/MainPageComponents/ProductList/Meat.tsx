@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 import foodPhoto from "../../../images/foodPhoto.jpg";
+import { Link } from 'react-router-dom';
 
 // Ваш код компонента Header
 const Meat: React.FC = () => {
@@ -11,7 +12,7 @@ const Meat: React.FC = () => {
             </h2>
 
             <section className={styles.productList__cards}>
-                <a href="#" className={styles.productList__card}>
+                <Link to="/OneItemPage" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>
                     <div className={styles.productName}>
                         Кунжут
@@ -32,7 +33,7 @@ const Meat: React.FC = () => {
                         Натисніть щоб дізнатися більше <br/>
                         або зробити замовлення <br/>
                     </div>
-                </a>
+                </Link>
 
                 <a href="#" className={styles.productList__card}>
                     <img src={foodPhoto} alt=""/>

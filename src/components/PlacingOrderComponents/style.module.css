@@ -129,6 +129,12 @@ input[type="checkbox"] {
     }
 }
 
+@media (max-width: 1000px) {
+    .page:hover {
+        color: #000000D9;
+    }
+}
+
 @media (max-width: 768px) {
     .receipt {
         max-width: 100%;

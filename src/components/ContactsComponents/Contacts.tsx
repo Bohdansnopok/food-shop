@@ -15,7 +15,7 @@ function Contacts() {
                     <div className={styles.minus}>
                         —
                     </div>
-                    <Link to="/Cart" className={styles.page}>Контакти</Link>
+                    <Link to="/ContactsPage" className={styles.page}>Контакти</Link>
                 </div>
 
                 <iframe

@@ -110,6 +110,13 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .page:hover,
+    .ourContact a:hover {
+        color: inherit !important;
+    }
+}
+
 @media (max-width: 770px) {
     .ourContacts {
         padding: 130px 0;
