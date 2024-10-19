@@ -13,16 +13,20 @@ import OneItemPage from "./pages/OneItemPage/OneItemPage";
 const App = () => {
     return (
         <Router>
-            <Header/>
-            <Routes>
-                <Route path="/" element={<Main/>}/>
-                <Route path="/cart" element={<Cart/>}/>
-                <Route path="/orderStatus" element={<OrderStatus/>}/>
-                <Route path="/placingOrder" element={<PlacingOrder/>}/>
-                <Route path="/contactsPage" element={<ContactsPage/>}/>
-                <Route path="/oneItemPage" element={<OneItemPage/>}/>
-            </Routes>
-            <Footer/>
+            <div className="siteWrapper">
+                <Header/>
+                <div className="siteContent">
+                <Routes>
+                        <Route path="/" element={<Main/>}/>
+                        <Route path="/cart" element={<Cart/>}/>
+                        <Route path="/orderStatus" element={<OrderStatus/>}/>
+                        <Route path="/placingOrder" element={<PlacingOrder/>}/>
+                        <Route path="/contactsPage" element={<ContactsPage/>}/>
+                        <Route path="/oneItemPage" element={<OneItemPage/>}/>
+                </Routes>
+                </div>
+                <Footer/>
+            </div>
         </Router>
     );
 };
