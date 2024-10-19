@@ -6,6 +6,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import OrderStatus from "./pages/OrderStatus/OrderStatus";
 import PlacingOrder from "./pages/PlacingOrder/PlacingOrder";
+import Contacts from "./pages/Contacts/ContactsPage";
+import ContactsPage from "./pages/Contacts/ContactsPage";
 
 const App = () => {
     return (
@@ -16,6 +18,7 @@ const App = () => {
                 <Route path="/cart" element={<Cart/>}/>
                 <Route path="/orderStatus" element={<OrderStatus/>}/>
                 <Route path="/placingOrder" element={<PlacingOrder/>}/>
+                <Route path="/contactsPage" element={<ContactsPage/>}/>
             </Routes>
             <Footer/>
         </Router>

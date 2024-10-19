@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                             <ul className={styles.pageNavs}>
                                 <li><Link to="/" className={styles.nav}>Головна</Link></li>
                                 <li><Link to="" className={styles.nav}>Магазин</Link></li>
-                                <li><a href="#" className={styles.nav}>Контакти</a></li>
+                                <li><Link to="/ContactsPage" className={styles.nav}>Контакти</Link></li>
                             </ul>
                             <div className={`${styles.ourSocials} ${styles.topSocials}`}> {/*для адаптива*/}
                                 <a href="#" className={styles.ourSocial}>
