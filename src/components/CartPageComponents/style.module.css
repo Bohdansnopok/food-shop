@@ -175,7 +175,7 @@
 
 .sum {
     border: 1px solid #000000;
-    padding: 14px 32px;
+    padding: 16px 32px;
     background-color: #fff;
     font-size: 25px;
     font-weight: 500;
@@ -187,11 +187,11 @@
     margin-left: 55px;
 }
 
-.summary button {
+.summary .btn {
     font-size: 17px;
 }
 
-.summary button span {
+.summary .btn span {
     margin-left: 5px;
 }
 
@@ -314,7 +314,7 @@
     }
 
     .priceSum,
-    .summary button span {
+    .summary .btn span {
         display: none;
     }
 }
@@ -337,11 +337,6 @@
         padding: 12px 8px;
         font-size: 16px;
     }
-
-    .summary button {
-        padding: 15px 40px;
-        font-size: 14px;
-    }
 }
 
 @media (max-width: 375px) {
@@ -357,10 +352,5 @@
 
     .sum span {
         margin-left: 23px;
-    }
-
-    .summary button {
-        padding: 15px 30px;
-        font-size: 14px;
     }
 }

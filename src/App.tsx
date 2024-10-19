@@ -5,6 +5,7 @@ import Cart from "./pages/Cart/Cart";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import OrderStatus from "./pages/OrderStatus/OrderStatus";
+import PlacingOrder from "./pages/PlacingOrder/PlacingOrder";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path="/" element={<Main/>}/>
                 <Route path="/cart" element={<Cart/>}/>
                 <Route path="/orderStatus" element={<OrderStatus/>}/>
+                <Route path="/placingOrder" element={<PlacingOrder/>}/>
             </Routes>
             <Footer/>
         </Router>

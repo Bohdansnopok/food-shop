@@ -93,9 +93,9 @@ function CartContent() {
                     <div className={styles.sum}>
                         Всього: <span>₴129</span>
                     </div>
-                    <button className="btn">
+                    <Link to="/PlacingOrder" className={`${styles.btn} btn`}>
                         Оформити <span>замовлення</span> {/*спан для адаптива*/}
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section>

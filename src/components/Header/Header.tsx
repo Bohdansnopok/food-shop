@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                         <div className="basketText">Кошик (0)</div>
                     </Link>
 
-                    <Link to="/OrderStatus" className={styles.design}>
+                    <Link to="/PlacingOrder" className={styles.design}>
                         <div className="basketText">Оформлення</div>
                     </Link>
                 </div>

@@ -43,9 +43,9 @@ const Status = () => {
                         </div>
                     </div>
 
-                    <a href="#" className={`${styles.btn} btn`}>
+                    <Link to="/" className={`${styles.btn} btn`}>
                         Перейти на головну
-                    </a>
+                    </Link>
                 </div>
             </section>
         </div>
