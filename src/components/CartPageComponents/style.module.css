@@ -305,12 +305,12 @@
         font-size: 14px;
     }
 
-    .btn:last-child {
-        display: none;
-    }
-
     .summary {
         margin-left: 0;
+    }
+
+    .coupon .btn:last-child {
+        display: none;
     }
 
     .priceSum,
@@ -336,6 +336,11 @@
     .sum {
         padding: 12px 8px;
         font-size: 16px;
+    }
+
+    .summary .btn {
+        padding: 12px 30px;
+        font-size: 15px;
     }
 }
 
