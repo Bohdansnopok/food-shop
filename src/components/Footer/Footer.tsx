@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                             <img src={logo} alt=""/>
                             <ul className={styles.pageNavs}>
                                 <li><Link to="/" className={styles.nav}>Головна</Link></li>
-                                <li><Link to="" className={styles.nav}>Магазин</Link></li>
+                                <li><Link to="/AdminPanel" className={styles.nav}>Магазин</Link></li>
                                 <li><Link to="/ContactsPage" className={styles.nav}>Контакти</Link></li>
                             </ul>
                             <div className={`${styles.ourSocials} ${styles.topSocials}`}> {/*для адаптива*/}

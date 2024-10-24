@@ -6,9 +6,9 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import OrderStatus from "./pages/OrderStatus/OrderStatus";
 import PlacingOrder from "./pages/PlacingOrder/PlacingOrder";
-import Contacts from "./pages/Contacts/ContactsPage";
 import ContactsPage from "./pages/Contacts/ContactsPage";
 import OneItemPage from "./pages/OneItemPage/OneItemPage";
+import AdminPanel from "./components/AdminPanelComponents/AdminPanel";
 
 const App = () => {
     return (
@@ -23,6 +23,7 @@ const App = () => {
                         <Route path="/placingOrder" element={<PlacingOrder/>}/>
                         <Route path="/contactsPage" element={<ContactsPage/>}/>
                         <Route path="/oneItemPage" element={<OneItemPage/>}/>
+                        <Route path="/adminPanel" element={<AdminPanel/>}/>
                 </Routes>
                 </div>
                 <Footer/>
