@@ -1,16 +1,15 @@
-import React, {useEffect, useState} from 'react';
-import dashboard from '../../images/dashboaard.png';
-import albums from '../../images/albums.png';
-import documentText from '../../images/document-text.png';
-import search from '../../images/adminSearchIcon.svg';
-import notifications from '../../images/notifications.svg';
-import addCircle from '../../images/AddCircle.svg';
-import battery from '../../images/battery.jpg';
+import React, {useState} from 'react';
+import dashboard from '../../../images/dashboaard.png';
+import albums from '../../../images/albums.png';
+import search from '../../../images/adminSearchIcon.svg';
+import notifications from '../../../images/notifications.svg';
+import addCircle from '../../../images/AddCircle.svg';
+import battery from '../../../images/battery.jpg';
 import styles from './style.module.css';
-import useSearch from "../../hooks/useSearch";
+import useSearch from "../../../hooks/useSearch";
 import {Link} from 'react-router-dom';
 
-type ButtonType = 'dashboard' | 'allProducts' | 'orderList';
+type ButtonType = 'dashboard' | 'allProducts';
 
 function AdminPanel() {
     const [activeButton, setActiveButton] = useState<ButtonType | null>(null);
@@ -21,7 +20,7 @@ function AdminPanel() {
     };
 
     const toggleCategories = () => {
-        setIsCategoriesOpen(prev => !prev); // Переключение состояния категорий
+        setIsCategoriesOpen(prev => !prev);
     };
 
     const [isActive, setIsActive] = useState(false);
@@ -60,14 +59,6 @@ function AdminPanel() {
                     >
                         <img src={albums} alt="All Products"/>
                         All products
-                    </button>
-
-                    <button
-                        className={`${styles.globalCategory} ${activeButton === 'orderList' ? styles.active : ''}`}
-                        onClick={() => handleButtonClick('orderList')}
-                    >
-                        <img src={documentText} alt="Order List"/>
-                        Order list
                     </button>
                 </div>
 
@@ -159,10 +150,10 @@ function AdminPanel() {
                             </div>
                         </div>
 
-                        <button className={`${styles.addNewBtn} btn`}>
+                        <Link to="/AdminPanelProductDetails" className={`${styles.addNewBtn} btn`}>
                             <img src={addCircle} alt=""/>
                             ADD NEW PRODUCT
-                        </button>
+                        </Link>
                     </div>
 
                     <div className={styles.cards}>

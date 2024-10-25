@@ -8,7 +8,8 @@ import OrderStatus from "./pages/OrderStatus/OrderStatus";
 import PlacingOrder from "./pages/PlacingOrder/PlacingOrder";
 import ContactsPage from "./pages/Contacts/ContactsPage";
 import OneItemPage from "./pages/OneItemPage/OneItemPage";
-import AdminPanel from "./components/AdminPanelComponents/AdminPanel";
+import Admin from "./pages/Admin/Admin";
+import AdminProductDetails from "./pages/AdminProductDetails/AdminProductDetails";
 
 const App = () => {
     return (
@@ -23,7 +24,8 @@ const App = () => {
                         <Route path="/placingOrder" element={<PlacingOrder/>}/>
                         <Route path="/contactsPage" element={<ContactsPage/>}/>
                         <Route path="/oneItemPage" element={<OneItemPage/>}/>
-                        <Route path="/adminPanel" element={<AdminPanel/>}/>
+                        <Route path="/adminPanel" element={<Admin/>}/>
+                        <Route path="/adminPanelProductDetails" element={<AdminProductDetails/>}/>
                 </Routes>
                 </div>
                 <Footer/>

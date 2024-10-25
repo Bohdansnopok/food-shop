@@ -1,9 +1,9 @@
 import React from 'react';
-import AdminPanel from "../../components/AdminPanelComponents/AdminPanel";
+import AdminPanel from "../../components/AdminPanelComponents/AdminPanelOne/AdminPanel";
 
 function Admin() {
     return (
-        <div className="container">
+        <div>
             <AdminPanel/>
         </div>
     );
