@@ -4,7 +4,8 @@ import '../../App.css';
 import searchIcon from '../../images/searchIcon.svg';
 import useSearch from "../../hooks/useSearch";
 import basketIcon from '../../images/basketIcon.svg';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 // Ваш код компонента Header
 const Header: React.FC = () => {
@@ -27,7 +28,7 @@ const Header: React.FC = () => {
 
             <header className={styles.headerContent}>
                 <div className="container flex">
-
+                    <BurgerMenu/>
                     <div className={`${styles.adaptive} flex`}>
                         <label htmlFor="header__search"
                                className={`${styles.header__label} flex`}>

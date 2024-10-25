@@ -202,7 +202,7 @@
     padding: 24px;
     border-radius: 16px;
     position: relative;
-    width: calc(33% - 14px / 3);
+    width: calc(33% - 20px / 3);
 }
 
 .card img {

@@ -72,32 +72,27 @@ function AdminPanel() {
                     {isCategoriesOpen && (
                         <>
                             <div className={styles.meatCategory}>
-                                Lorem Ipsum
+                                Усі
                                 <div className={styles.quantity}>0</div>
                             </div>
 
                             <div className={styles.meatCategory}>
-                                Lorem Ipsum
+                                М'ясні джерки
                                 <div className={styles.quantity}>0</div>
                             </div>
 
                             <div className={styles.meatCategory}>
-                                Lorem Ipsum
+                                Свинячі джерки
                                 <div className={styles.quantity}>0</div>
                             </div>
 
                             <div className={styles.meatCategory}>
-                                Lorem Ipsum
+                                Ковбаски
                                 <div className={styles.quantity}>0</div>
                             </div>
 
                             <div className={styles.meatCategory}>
-                                Lorem Ipsum
-                                <div className={styles.quantity}>0</div>
-                            </div>
-
-                            <div className={styles.meatCategory}>
-                                Lorem Ipsum
+                                Набори
                                 <div className={styles.quantity}>0</div>
                             </div>
                         </>
